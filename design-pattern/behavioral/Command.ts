@@ -21,7 +21,7 @@ class SimpleCommand implements Command {
 }
 
 /**
- * 그러나 일부 명령은 더 복잡한 작업을 "수신기(receivers)"라고 하는 다른 개체에 위임할 수 있습니다.
+ * 그러나 일부 명령은 더 복잡한 작업을 "수신기(receivers)"라고 하는 다른 객체에 위임할 수 있습니다.
  */
 class ComplexCommand implements Command {
   private receiver: Receiver;

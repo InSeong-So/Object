@@ -80,7 +80,7 @@ class Component2 extends BaseComponent {
 }
 
 /**
- * The client code.
+ * 클라이언트 측 코드
  */
 const c1 = new Component1();
 const c2 = new Component2();
